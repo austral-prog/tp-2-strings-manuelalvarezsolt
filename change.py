@@ -10,7 +10,7 @@ def change():
     vuelto = dinero - gasto
     vuelto_entero = vuelto // 1
     print("Vuelto")
-    print(f"Pesos : \n{int(vuelto_entero)}")
+    print(f"Pesos:\n{int(vuelto_entero)}")
     vuelto_centavos1 = (vuelto - vuelto_entero) * 100
     vuelto_centavos = vuelto_centavos1 // 1
-    print(f"Centavos: \n{int(vuelto_centavos)}")
+    print(f"Centavos:\n{int(vuelto_centavos)}")
