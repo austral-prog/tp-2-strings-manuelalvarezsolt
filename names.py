@@ -6,7 +6,7 @@ def names():
     minúsculas, título, mayúsculas y con tabulador.
     """
     pass
-    nombre = input("cual es tu nombre")
+    nombre = input()
     print(f"{nombre.lower()}")
     print(f"{nombre.upper()}")
     print(f"{nombre.title()}")
