@@ -15,4 +15,3 @@ ddef change():
     print(f"Pesos:\n{int(vuelto_entero)}")
     vuelto_centavos = (vuelto - vuelto_entero) * 100
     print(f"Centavos:\n{int(vuelto_centavos)}")
-change()
