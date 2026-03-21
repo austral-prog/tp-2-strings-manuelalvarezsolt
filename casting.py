@@ -6,7 +6,7 @@ def casting():
     precio_calculado = precio * cantidad
     precio_descuento = precio - descuento
     precio_total = precio_descuento * cantidad
-    print("Precio: ", precio)
+    print("\nPrecio: ", precio)
     print("Descuento: ", descuento)
     print("Precio con descuento: ", precio_descuento)
     print("Total: ", precio_total)
