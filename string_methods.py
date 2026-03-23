@@ -23,5 +23,5 @@ def string_methods():
     print(f"Slice: {python}")
     print(f"Paso: {python[ ::2]}")
     print(f"Reverso: {python[ ::-1]}")
-    print(f"{nombre.strip()} sabe {frase[0 : 6]}")
+    print(f"Formato: {nombre.strip()} sabe {frase[0 : 6]}")
     print(multilinea)
