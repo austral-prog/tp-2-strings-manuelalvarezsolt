@@ -39,7 +39,7 @@ def ficha():
     espacio = nombre.find(" ")
     print(f"Iniciales: {nombre[0].upper()}{nombre[espacio + 1].upper()}")
     print(f"Usuario: {nombre[espacio + 1 : ].lower()}.{nombre[0 : espacio].lower()}")
-    print(f"Email valido: {"@" in mail}")
+    print(f"Email valido: {'@' in mail}")
     arroba = mail.find("@")
     print(f"Dominio: {mail[arroba + 1 :]}")
     nombre2 = nombre.replace(" ", "_")
