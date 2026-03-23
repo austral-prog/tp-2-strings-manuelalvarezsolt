@@ -50,8 +50,8 @@ def ficha():
     promedio = sumanotas / 3
     promedioent = sumanotas // 3
     print(f"Nota 1: {nota1}")
-    print(f"Nota 1: {nota2}")
-    print(f"Nota 1: {nota3}")
+    print(f"Nota 2: {nota2}")
+    print(f"Nota 3: {nota3}")
     print(f"Suma: {sumanotas}")
     print(f"Promedio: {promedio}")
     print(f"Promedio entero: {int(promedioent)}")
