@@ -25,11 +25,13 @@ def ficha():
     #   - Las 3 notas, su suma, promedio y promedio entero
     #   - Cierre decorativo usando repetición de string ("=" * 24)
     pass
-    nombre = input()
-    mail = input()
+    nombre1 = input()
+    mail1 = input()
     nota1 = int(input())
     nota2 = int(input())
     nota3 = int(input())
+    nombre = nombre1.lower().strip()
+    mail = mail1.lower().strip()
     print('''========================
     FICHA DEL ALUMNO
 ========================''')
@@ -43,7 +45,7 @@ def ficha():
     arroba = mail.find("@")
     print(f"Dominio: {mail[arroba + 1 :]}")
     nombre2 = nombre.replace(" ", "_")
-    print(f"Nombre para archivo {nombre2.title().strip()}")
+    print(f"Nombre para archivo: {nombre2.title().strip()}")
     print(f"Cantidad de a: {nombre.lower().count('a')}")
     print(f"Codigo secreto: {nombre[::-1].upper()}")
     sumanotas = nota1 + nota2 + nota3
